@@ -43,6 +43,17 @@ gb_fasta<-function(gbfile){
 
 }
 
-
+##'extract the sequence in the fasta file
+##'
+##'
+##'@title read.fasta
+##'@param fasfile fasta file
+##'@return sequence
+##'@export
+##'@author Xinzhi Mo
+read.fasta<-function(fasfile){
+  f<-readLines(fasfile)
+  paste0(f[-1],collapse = "")
+}
 
 

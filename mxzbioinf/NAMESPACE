@@ -3,4 +3,5 @@
 export(base_frequency)
 export(download_genbank)
 export(gb_fasta)
+export(read.fasta)
 export(seq_align)

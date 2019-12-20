@@ -1,0 +1,15 @@
+Package: mxzbioinf
+Title: an R package about bioinformatics
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Xinzhi",
+           family = "Mo",
+           role = c("aut", "cre"),
+           email = "993441615@qq.com")
+Maintainer: Xinzhi Mo <993441615@qq.com>
+Description: This package implents methods to download genebank files and convert them to fasta format,sequences alignment,and caculate base frequency.
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+
